@@ -1,9 +1,6 @@
 import discord
 import requests
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD")  # Regenerate and replace here
 GOOGLE_CHAT_WEBHOOK_URL = 'https://chat.googleapis.com/v1/spaces/AAQAf2rug9g/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=9UOvqFjwDsRVFKx6EXOdr0TqxNJC7VY0HR_rkNOaJKw'  # Replace here
